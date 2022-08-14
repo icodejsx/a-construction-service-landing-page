@@ -1,4 +1,38 @@
 *{
     padding:0;
     margin:0;
+    box-sizing:border-box;
+}
+
+/* navbar styling starts here */
+.navbar{
+    width:100%;
+    height: 70px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:red;
+    padding: 0 5rem;
+    font-size:1.8rem;
+}
+.navbar .social{
+    display:flex;
+    gap:1rem;
+}
+ 
+/* navbar styleing ends here */
+
+/* hero section styling starts here */
+.hero img {
+    position: absolute;
+}
+.hero .herotext{
+    width: 400px;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    /* margin-top:1rem; */
+    margin-left:4rem;
+    position:relative;
 }
