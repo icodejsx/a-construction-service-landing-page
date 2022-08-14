@@ -22,17 +22,32 @@
  
 /* navbar styleing ends here */
 
+
 /* hero section styling starts here */
 .hero img {
     position: absolute;
 }
 .hero .herotext{
+    height:auto;
     width: 400px;
     display:flex;
     flex-direction: column;
-    justify-content:flex-start;
+    justify-content:center;
+    align-content: center;
     align-items:flex-start;
-    /* margin-top:1rem; */
-    margin-left:4rem;
-    position:relative;
+    margin: auto 0;
+    margin-left:5rem;
+    position:absolute;
+    gap:2rem;
+}
+.hero .herotext .text{
+    width:auto;
+    height:auto;
+    flex-direction:column;
+    display:flex;
+    gap:2rem;
+}
+.hero .herotext .text h1{
+    font-size:6rem;
+    color:
 }
